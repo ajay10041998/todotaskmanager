@@ -1,0 +1,17 @@
+POST http://localhost:3000/user/signup
+Content-Type: application/json
+
+{
+    "user_name" : "vinod",
+    "user_email" : "vinod@gmail.com",
+    "user_password" : "vinod@123"
+}
+
+###
+POST http://localhost:3000/user/login 
+Content-Type: application/json 
+
+{
+    "user_name":"vinod",
+    "user_password":"vinod@123"
+}
